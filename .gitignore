@@ -1,0 +1,21 @@
+# Hemligheter — committa aldrig
+.env
+
+# Databaser och rådata (kan innehålla personnamn)
+*.db
+*.db-journal
+*.sqlite
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# macOS
+.DS_Store
